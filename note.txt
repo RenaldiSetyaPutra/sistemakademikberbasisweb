@@ -1,0 +1,5 @@
+- siswa login
+- posting materi per sesi
+- quiz
+- mengelola data pengajar
+- siswa dapat dwnld materi, mengerjakan quiz, mengelola data siswa

@@ -1,0 +1,52 @@
+<html>
+<style>
+	input(display:block)
+</style>
+	<form method='post' action='proses_nilai.php'>
+	<h1>Hitung Nilai Akhir Siswa</h1>
+
+		<table bgcolor="#454545" width="400" border="1">
+		  <tr>
+			<th width="80" scope="row">NIS</th>
+			<td width="90"><input type='text' name='nis' ></td>
+		  </tr>
+		  <tr>
+			<th width="80" scope="row">NAMA</th>
+			<td><input type='text' name='nama' ></td>
+		  </tr>
+		  <tr>
+			<th width="80" scope="row">PELAJARAN</th>
+			<td width="90"><select name='mapel'>
+				<option value='0'>Pilih Mata Pelajaran</option>
+				<option value='Bahasa Indonesia'>Bahasa Indonesia</option>
+				<option value='Matematika'>Matematika</option>
+				<option value='IPA'>IPA</option>
+				<option value='Bahasa Inggris'>Bahasa Inggris</option>
+			  </select></td>
+		  </tr>
+		  <tr>
+			<th width="80" scope="row">TUGAS</th>
+			<td width="90"><input type='text' name='tugas' ></td>
+		  </tr>
+		  <tr>
+			<th width="80" scope="row">ABSEN</th>
+			<td width="90"><input type='text' name='absen' ></td>
+		  </tr>
+		  <tr>
+			<th width="80" scope="row">ATTITUDE</th>
+			<td width="90"><input type='text' name='attitude' ></td>
+		  </tr>
+		  <tr>
+			<th width="80" scope="row">UTS</th>
+			<td width="90"><input type='text' name='uts' ></td>
+		  </tr>
+		  <tr>
+			<th width="80" scope="row">UAS</th>
+			<td width="90"><input type='text' name='uas' ></td>
+		  </tr>
+		</table>
+		
+		<input type='submit' value='Kirim' >
+	</form>
+	
+</html>
